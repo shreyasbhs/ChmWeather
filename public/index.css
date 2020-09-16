@@ -1,0 +1,148 @@
+html{
+    height:100%;
+}
+body{
+    
+    /* background: url("/images/back.jpg") fixed center no-repeat; */
+    background-size: cover;
+    user-select: none;
+    overflow:hidden;
+    height:100%;
+    margin-top: -1%;
+    padding: 0;
+    color:rgb(8, 8, 41);
+      
+}
+.App{
+    background-color: rgba(220, 231, 241,0.5);
+    height:100%;
+    /* opacity:0.5; */
+}
+#root{
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:rgb(8, 8, 41);
+    color:white;
+}
+
+.header{
+    /* background-color: green; */
+    margin:0;
+    padding: 0;
+}
+.dp li{
+    padding:5%;
+    /* margin-top:5%; */
+    border-bottom: 0.5px solid white;
+    /* width:110%; */
+}
+.dp li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#dpt:hover{
+    cursor: pointer;
+    color:blue;
+}
+#dpt{
+    /* float:right;
+     */
+     position: absolute;
+     right:50px;
+     font-size:2rem;
+     /* background-color: blue; */
+}
+
+.content{
+    height:80%;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+.content
+img{
+    height:100%;
+    width:100%;
+}
+#taluk{
+    text-align: center;
+    font-size:4rem;
+}
+.Drop{
+    position:absolute;
+    right:60px;
+    top: 50px;
+    width:10%;
+}
+.tpw{
+    height:80%;
+    width:60%;
+    background:linear-gradient(to right bottom,rgba(8, 8, 65,0.8),rgba(79, 79, 212,0.8));
+   
+}
+.tpw li{
+    width:40%;
+    display:inline-block;
+    height:50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size:3rem;
+   
+    /* background-color: aqua; */
+}
+.tpw li::before{
+    content:"";
+    display:block;
+    height: 25%;
+}
+#rainy{
+    height:100px;
+    width:200px;
+    font-size:1.5rem;
+    background-color: inherit;
+}
+.dd{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#wdes{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.desim{
+    position:absolute;
+    right:1%;
+    height:63.8%;
+    top:13%;
+    width:39%;
+    z-index: -1;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+.desim img{
+    height: 100%;
+    width:100%;
+}
+/* #temp{
+    background: url("./images/temp.png") fixed center no-repeat;
+    background-size: cover;
+} */
+/* @keyframes background{
+    from
+    {
+        display:none;
+    }
+    to{
+        display:block;
+    }
+} */
